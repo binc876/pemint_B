@@ -1,0 +1,11 @@
+Route::get('/', function () {
+	return view('welcome');
+});
+ 
+Route::get('halo', function () {
+	return "Halo, Mari belajar Pemrogrman Integratif bersama";
+});
+ 
+Route::get('blog', function () {
+	return view('blog');
+});
